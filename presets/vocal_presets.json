@@ -1,0 +1,59 @@
+{
+  "presets": [
+    {
+      "id": "soft-breathy",
+      "name": "Soft Breathy",
+      "description": "Light formant, slow vibrato, lush reverb",
+      "params": {
+        "formant": 0.9,
+        "vibratoRate": 5.5,
+        "vibratoDepth": 0.12,
+        "reverbWet": 0.35,
+        "chorusWet": 0.08
+      }
+    },
+    {
+      "id": "pop-lead",
+      "name": "Pop Lead",
+      "description": "Bright, small delay, tight pitch modulation",
+      "params": {
+        "formant": 1.05,
+        "vibratoRate": 6.8,
+        "vibratoDepth": 0.08,
+        "reverbWet": 0.18,
+        "delayWet": 0.12
+      }
+    },
+    {
+      "id": "choir-pad",
+      "name": "Choir Pad",
+      "description": "Thick stacked voices, wide chorus, long reverb",
+      "params": {
+        "stackVoices": 3,
+        "detuneCents": [0, -8, 7],
+        "reverbWet": 0.6,
+ "chorusWet": 0.22
+      }
+    },
+    {
+      "id": "edgy-rap",
+      "name": "Edgy Rap",
+      "description": "Aggressive formant, slight distortion",
+      "params": {
+        "formant": 1.15,
+        "distortion": 0.15,
+        "reverbWet": 0.05
+      }
+    },
+    {
+      "id": "vintage-vocoder",
+      "name": "Vintage Vocoder",
+      "description": "Classic vocoder-ish tone with bandpass",
+      "params": {
+        "vocoderBands": 12,
+        "vocoderWet": 0.8,
+        "reverbWet": 0.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "shakey-verse-sound-lab-frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tone": "latest",
+    "axios": "latest",
+    "midi-writer-js": "latest"
+  }
+}

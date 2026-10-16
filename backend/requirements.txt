@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pretty_midi
+numpy
+aiofiles
+python-dotenv
